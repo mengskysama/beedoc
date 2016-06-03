@@ -9,7 +9,7 @@ beego 内置了 session 模块，目前 session 模块支持的后端引擎包�
 
 beego 中使用 session 相当方便，只要在 main 入口函数中设置如下：
 
-	beego.SessionOn = true
+	beego.BConfig.WebConfig.Session.SessionOn = true
 
 或者通过配置文件配置如下：
 
